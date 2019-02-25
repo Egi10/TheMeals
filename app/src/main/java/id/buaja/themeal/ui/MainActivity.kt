@@ -13,6 +13,7 @@ import id.buaja.themeal.viewmodel.CategoriesViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
     private lateinit var categoriesViewModel: CategoriesViewModel
     private lateinit var adapterCategories: AdapterCategories
 
